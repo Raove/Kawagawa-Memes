@@ -21,7 +21,7 @@ If you just want our version, here is the invite https://discord.com/api/oauth2/
 "$commands" will show commands with the most used on top  
 "$leave" will make the bot leave the voice channel  
 "$delete [x]" will delete x commands  
-"$avatar @x" will show you x profile's picture if you leave it blanks as "$avatar" it'll show you your own 
+"$avatar @x" will show you x profile's picture if you leave it blanks as "$avatar" it'll show you your own(This one is bugged, sometimes it works, sometimes it doesn't, needs fix)
 
 **#Supported Audio/URL formats**  
 Currently included by default are:
