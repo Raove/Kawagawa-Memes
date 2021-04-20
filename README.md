@@ -26,20 +26,33 @@ If you just want our version, here is the invite https://discord.com/api/oauth2/
 currently included by default are:
 
 YouTube 
+
 SoundCloud  
+
 Bandcamp  
+
 Vimeo 
+
 Twitch streams  
+
 Local files 
+
 HTTP URLs 
 
 file formats that can currently handle are (relevant for .url sources):
 
 MP3 
+
 FLAC  
+
 WAV 
+
 Matroska/WebM (AAC, Opus or Vorbis codecs)  
+
 MP4/M4A (AAC codec) 
+
 OGG streams (Opus, Vorbis and FLAC codecs)  
+
 AAC streams 
+
 Stream playlists (M3U and PLS)  
