@@ -7,3 +7,4 @@ Compile into a .jar runnable file and run it in a folder with token.txt and cmdl
 
 
 If help is needed. Discord: Raoul#1337
+You can also be a contributor if you want, just ask! :D
