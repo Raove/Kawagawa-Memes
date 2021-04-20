@@ -1,0 +1,49 @@
+group 'About us'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+sourceCompatibility = 1.8
+
+mainClassName = 'Kawagawa_Memes'
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+    jcenter()
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:4.2.1_259'
+    implementation 'com.sedmelluq:lavaplayer:1.3.76'
+    implementation 'com.jagrosh:jda-utilities:3.0.5'
+    runtime 'org.slf4j:slf4j-simple:1.7.25'
+    compile 'com.opencsv:opencsv:4.4'
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.4'
+        classpath 'org.hidetake:gradle-ssh-plugin:2.9.0'
+    }
+}
+
+shadowJar {
+    baseName = 'meme'
+    classifier = null
+    version = null
+}
