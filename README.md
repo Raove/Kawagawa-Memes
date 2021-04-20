@@ -12,7 +12,7 @@ You can also be a contributor if you want, just ask! :D
 
 If you just want our version, here is the invite https://discord.com/api/oauth2/authorize?client_id=711067673684869180&permissions=3517760&scope=bot
 
-
+#Command List/How to use
 "$play sound_link" -Adds sound link to be played in a queue 
 "$skip" -Skips sound that is playing  
 "$leave" -Bot leaves channel  
@@ -23,23 +23,11 @@ If you just want our version, here is the invite https://discord.com/api/oauth2/
 "$delete [x]" will delete x commands  
 "$avatar [x]" will show you x profile's picture if you leave it blanks as "$avatar" it'll show you your own 
 
-currently included by default are:
+#Supported Audio/URL formats
+Currently included by default are:
 
-  YouTube 
-  SoundCloud  
-  Bandcamp  
-  Vimeo 
-  Twitch streams  
-  Local files 
-  HTTP URLs 
+  YouTube, SoundCloud, Bandcamp, Vimeo, Twitch streams, Local files, HTTP URLs 
 
-file formats that can currently handle are (relevant for .url sources):
+File formats that can currently handle are (relevant for .url sources):
 
-  MP3 
-  FLAC  
-  WAV 
-  Matroska/WebM (AAC, Opus or Vorbis codecs)  
-  MP4/M4A (AAC codec) 
-  OGG streams (Opus, Vorbis and FLAC codecs)  
-  AAC streams 
-  Stream playlists (M3U and PLS)  
+  MP3, FLAC, WAV, Matroska/WebM (AAC, Opus or Vorbis codecs), MP4/M4A (AAC codec), OGG streams (Opus, Vorbis and FLAC codecs), AAC streams, Stream playlists (M3U and PLS)  
