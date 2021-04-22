@@ -7,7 +7,7 @@ Compile into a .jar runnable file and run it in a folder with token.txt and cmdl
 
 
 If help is needed. Discord: Raoul#1337  
-You can also be a contributor if you want, just ask! :D
+You can also be a contributor if you want, just ask! :D (You have to be at least 14 years old and have 35 years of experience)
 
 
 If you just want our version, here is the invite https://discord.com/api/oauth2/authorize?client_id=711067673684869180&permissions=3517760&scope=bot
